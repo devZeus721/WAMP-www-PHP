@@ -1,6 +1,6 @@
 <?php
 // Part 1: add the name and age variables.
-$name = 'James M';
+$name = 'devZeus MAthew';
 $age = 24;
 echo "Hello $name. You are $age years old.\n";
 
