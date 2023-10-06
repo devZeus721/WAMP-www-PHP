@@ -12,12 +12,13 @@ print_r($oddno);
 unset($oddno[2]);
 print_r($oddno);
 //count fn
-echo count($oddno);
+echo count($oddno),"\n";
 //reset fn
 $fn = reset($oddno);
-echo $fn;
-
-
+echo $fn,"\n";
+//last element fn
+$lastelement = end($oddno);
+echo $lastelement;
 
 
 
