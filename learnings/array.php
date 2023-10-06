@@ -19,7 +19,12 @@ echo $fn,"\n";
 //last element fn
 $lastelement = end($oddno);
 echo $lastelement;
-
+//Note that we subtract one from the last index because indices are zero based in PHP 
+//so we need to fix the fact that we don't count variable number zero.
+$odd_numbers = [1,3,5,7,9];
+$last_index = count($odd_numbers) - 1;
+$last_item = $odd_numbers[$last_index];
+echo $last_item;
 
 
 ?>
