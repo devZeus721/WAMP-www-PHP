@@ -24,7 +24,13 @@ echo $lastelement;
 $odd_numbers = [1,3,5,7,9];
 $last_index = count($odd_numbers) - 1;
 $last_item = $odd_numbers[$last_index];
-echo $last_item;
+echo $last_item,"\n";
+?>
 
-
+<?php
+//STACK&QUEUE fns
+//push an element into array(in the last)
+$numb = [1,2,3];
+array_push($numb , 7); //or push('a')
+print_r($numb);
 ?>
