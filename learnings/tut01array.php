@@ -33,4 +33,8 @@ echo $last_item,"\n";
 $numb = [1,2,3];
 array_push($numb , 7); //or push('a')
 print_r($numb);
+//pop an element into array(in the last)
+array_pop($numb);
+print_r($numb);
+
 ?>
